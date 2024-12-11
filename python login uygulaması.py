@@ -1,4 +1,4 @@
-While True:
+while True:
   sysUserName = "yusuf"
   sysUserPassword = "123456"
   
@@ -6,7 +6,7 @@ While True:
   userName = input("Kullanıcı adınızı giriniz: ")
   userPassword = input("Şifrenizi giriniz: ")
   
-  if userName == sysUserName and userPassword == sysPassword:
+  if userName == sysUserName and userPassword == sysUserPassword:
     print("Bilgiler doğru, uygulamaya giriş yapılıyor...")
     break
   elif userName != sysUserName and userPassword == sysUserPassword:
